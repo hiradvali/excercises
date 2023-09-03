@@ -19,7 +19,7 @@ def fac(n):
     else:
         return n *fac(n-1)
 
-num=5 
-fac(5)
+num=int(input("put the number here : ")) 
+
 print(fac(num))
 print(fib(num))
