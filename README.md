@@ -1,0 +1,2 @@
+# excercises
+Daily programming assignment
