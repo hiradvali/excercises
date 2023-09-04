@@ -2,10 +2,13 @@ from tkinter import *
 from tkinter import messagebox
 import random 
 
+# tarif kardan har bazikon be soorat random
+
 player = random.choice(['o', 'x'])
 color = {'o': 'blue' , 'x': 'red'}
 board =[[],[],[]]
 
+# tabei ke bad az ahr dast etefaghat ghabli ro pak mikonad va mitavan etelaat jadid vared kard
 
 def clear():
     global player
@@ -15,7 +18,9 @@ def clear():
             board[i][j]["text"]= " "
             board[i][j]["state"]=NORMAL
     player = random.choice(["o","x"])
-        
+
+# tarif kardan sharayet bord va bakht
+
 def click(row,col):
     global player
     global color
