@@ -51,8 +51,10 @@ window.mainloop()
 
 
 """
+
 if you use vscode , just click on "run python file"
 if you use a text editor,you have to do : right-click then click on run python file in terminall
+*** enjoy the game ***
 
-*** enjoy the game ***a
+
 """
