@@ -23,7 +23,3 @@ for item in x:
 for i in lst:   
     g = g + i                       # 12 - We do this to paste the encrypted letters together
 print(g)
-
-
-        
-        
